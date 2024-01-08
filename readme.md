@@ -15,7 +15,10 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 - Python [3.10]
 - Django [5.0.1]
-- Django R
+- djangorestframework
+- django-seed
+- simplejwt
+- psycopg2
 
 ### Installation
 
