@@ -55,36 +55,32 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
-5. Apply migrations:
+5. Create .env:
+
+```bash
+copy .env.example content for reference
+```
+
+6. Apply migrations:
 
 ```bash
 python manage.py migrate
 ```
 
-6. Create a superuser:
+7. Create a superuser:
 
 ```bash
 python manage.py createsuperuser
 ```
 
-7. Run the development server:
+8. Run the development server:
 
 ```bash
 python manage.py runserver
 ```
 
-8. Open your browser and go to [http://localhost:8000](http://localhost:8000)
+9. Open your browser and go to [http://localhost:8000](http://localhost:8000)
 
 ## Contributing
 
 If you would like to contribute to this project, please feel free to.
-
-## License
-
-This project is licensed under the [Your License] - see the [LICENSE.md](LICENSE.md) file for details.
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc.
